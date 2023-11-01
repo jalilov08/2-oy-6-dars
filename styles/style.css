@@ -1,0 +1,90 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans';
+    font-size: 18px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+    width: 100%;
+}
+
+/* main styles */
+.main{
+    background-color: #163A24;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 153px;
+    height: 58px;
+}
+
+.nav a {
+    margin-right: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #198C36;
+}
+
+.nav .get-started {
+    margin: 0px;
+    padding: 15px 25 px;
+    border-radius: 160px;
+    background-color: #198C36;
+    border: 2px solid #198C36;
+}
+
+.nav .get-started:hover {
+    border-color: white ;
+    color: #198C36;
+    background-color: transparent;
+}
+
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__container img {
+    width: 738px;
+    height: 580px;
+}
+
+.hero__container .text h1 {
+    color: #fbfaf7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px; /* 135.938% */
+
+    margin-bottom: 18px;
+}
+
+.hero__container .text p {
+    color: #fbfaf7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
